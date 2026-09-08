@@ -1,5 +1,5 @@
 # Source-Filter Analysis of Cross-disease Healthy vs Dysarthric Speech Classification in ALS and PD Using Matched and Mismatched Tasks
-This repository provides official benchmark tables, demographic statistics, and evaluation metrics (mean F1 and accuracy $\pm$ SD) for **Amyotrophic Lateral Sclerosis (ALS)**, **Parkinson's Disease (PD)**, and **Healthy Controls (HC)** speech classification across 605 speakers (ALS: $54.21 \pm 12.10$ yrs, HC: $41.10 \pm 9.79$ yrs, PD: $57.12 \pm 9.99$ yrs). It evaluates cross-task (SPON, DIDK, IMG), cross-representation (Raw Wav, Source-Only, Filter-Only), and cross-disease model generalization.
+This repository provides official benchmark tables and evaluation metrics (mean F1 and accuracy $\pm$ SD) for **Amyotrophic Lateral Sclerosis (ALS)**, **Parkinson's Disease (PD)**, and **Healthy Controls (HC)** speech classification across 605 speakers. It evaluates cross-task (SPON, DIDK, IMG), cross-representation (Raw Wav, Source-Only, Filter-Only), and cross-disease model generalization.
 > **Note on Reported Metrics:** While figures in the manuscript highlight primary Accuracy trends, all tables and linked datasets in this repository report both **Mean F1 score (sd)** and **Mean Accuracy (sd)** across 5 folds to ensure full transparency.
 
 ---
@@ -10,47 +10,13 @@ Use the table below to navigate between the paper references and their exact sou
 
 | Paper Reference | Description & Evaluation Metrics | Repository Source File |
 | :--- | :--- | :--- |
-| **Section 3 / Table 1** | Native language and gender distribution ($N = 605$) | 📊 [`./Tables/Language_and_Gender_Distribution.xlsx`](./Tables/Language_and_Gender_Distribution.xlsx) |
 | **Fig. 4** | Matched & mismatched cross-dataset evaluation (**F1 & Accuracy**) | 📊 [`./Tables/matched_&_mismatched_values.xlsx`](./Tables/matched_%26_mismatched_values.xlsx) |
 | **Fig. 5** | Disease-specific vs. Cross-disease evaluation (**F1 & Accuracy**) | 📊 [`./Tables/cross_disease_values.xlsx`](./Tables/cross_disease_values.xlsx) |
 ---
 
-<details>
-<summary><b>1. Browser Preview: Dataset & Demographic Statistics (Table 1)</b> (Click to expand)</summary>
-
-<br>
-
-> 📊 **Source Excel File:** [`Language_and_Gender_Distribution.xlsx`](./Language_and_Gender_Distribution.xlsx)
-
-This table summarizes the language and gender distribution ($N = 605$) across the three speaker cohorts: **ALS**, **Healthy Controls (HC)**, and **Parkinson's Disease (PD)**.
-
-### Table 1: Native Language and Gender Distribution
-
-| Native Language | ALS (F / M / Total) | HC (F / M / Total) | PD (F / M / Total) | Grand Total |
-| :--- | :---: | :---: | :---: | :---: |
-| **Assamese** | 1 / 0 / **1** | 1 / 2 / **3** | 0 / 2 / **2** | **6** |
-| **Bengali** | 24 / 50 / **74** | 9 / 18 / **27** | 14 / 31 / **45** | **146** |
-| **Bhojpuri** | 1 / 0 / **1** | 0 / 0 / **0** | 0 / 0 / **0** | **1** |
-| **Chattisgarhi** | 0 / 0 / **0** | 0 / 1 / **1** | 0 / 0 / **0** | **1** |
-| **English** | 0 / 1 / **1** | 1 / 0 / **1** | 0 / 0 / **0** | **2** |
-| **Hindi** | 7 / 16 / **23** | 3 / 7 / **10** | 2 / 14 / **16** | **49** |
-| **Kannada** | 9 / 23 / **32** | 48 / 84 / **132** | 9 / 31 / **40** | **204** |
-| **Malayalam** | 5 / 8 / **13** | 1 / 2 / **3** | 3 / 6 / **9** | **25** |
-| **Marathi** | 0 / 4 / **4** | 1 / 1 / **2** | 1 / 1 / **2** | **8** |
-| **Odia** | 0 / 5 / **5** | 1 / 2 / **3** | 0 / 2 / **2** | **10** |
-| **SSK** | 0 / 0 / **0** | 0 / 0 / **0** | 0 / 1 / **1** | **1** |
-| **Tamil** | 5 / 12 / **17** | 5 / 5 / **10** | 7 / 15 / **22** | **49** |
-| **Telugu** | 18 / 23 / **41** | 6 / 15 / **21** | 7 / 16 / **23** | **85** |
-| **Tulu** | 0 / 0 / **0** | 0 / 2 / **2** | 0 / 0 / **0** | **2** |
-| **Urdu** | 2 / 3 / **5** | 1 / 1 / **2** | 3 / 6 / **9** | **16** |
-| **Grand Total** | **72 / 145 / 217** | **77 / 140 / 217** | **46 / 125 / 171** | **605** |
-
-</details>
-
----
 
 <details>
-<summary><b>2. Browser Preview: Matched & Mismatched Evaluation (Data for Fig. 4)</b> (Click to expand)</summary>
+<summary><b>1. Browser Preview: Matched & Mismatched Evaluation (Data for Fig. 4)</b> (Click to expand)</summary>
 
 <br>
 
@@ -96,7 +62,7 @@ The tables below report **Mean F1 score (sd)** alongside **Mean Accuracy (sd)** 
 ---
 
 <details>
-<summary><b>3. Browser Preview: Disease-Specific vs. Cross-Disease Evaluation (Data for Fig. 5)</b> (Click to expand)</summary>
+<summary><b>2. Browser Preview: Disease-Specific vs. Cross-Disease Evaluation (Data for Fig. 5)</b> (Click to expand)</summary>
 
 <br>
 

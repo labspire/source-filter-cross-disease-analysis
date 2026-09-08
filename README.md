@@ -10,10 +10,9 @@ Use the table below to navigate between the paper references and their exact sou
 
 | Paper Reference | Description & Evaluation Metrics | Repository Source File |
 | :--- | :--- | :--- |
-| **Section 3 / Table 1** | Native language and gender distribution ($N = 605$) | 📊 [`./Tables/Language_and_Gender_Distribution.xlsx`](./Language_and_Gender_Distribution.xlsx) |
-| **Fig. 4** | Matched & mismatched cross-dataset evaluation (**F1 & Accuracy**) | 📊 [`./Tables/matched_&_mismatched_values.xlsx`](./matched_%26_mismatched_values.xlsx) |
-| **Fig. 5** | Disease-specific vs. Cross-disease evaluation (**F1 & Accuracy**) | 📊 [`./Tables/cross_disease_values.xlsx`](./cross_disease_values.xlsx) |
-
+| **Section 3 / Table 1** | Native language and gender distribution ($N = 605$) | 📊 [`./Tables/Language_and_Gender_Distribution.xlsx`](./Tables/Language_and_Gender_Distribution.xlsx) |
+| **Fig. 4** | Matched & mismatched cross-dataset evaluation (**F1 & Accuracy**) | 📊 [`./Tables/matched_&_mismatched_values.xlsx`](./Tables/matched_%26_mismatched_values.xlsx) |
+| **Fig. 5** | Disease-specific vs. Cross-disease evaluation (**F1 & Accuracy**) | 📊 [`./Tables/cross_disease_values.xlsx`](./Tables/cross_disease_values.xlsx) |
 ---
 
 <details>

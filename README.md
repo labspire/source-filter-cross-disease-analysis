@@ -1,4 +1,4 @@
-# Source-Filter Analysis of Cross-disease Healthy vs Dysarthric Speech Classification in ALS and PD Using Matched and Mismatched Tasks
+# SOURCE-FILTER ANALYSIS IN HEALTHY VS. DYSARTHRIC CLASSIFICATION UNDER WITHIN- AND CROSS-DISEASE SETTINGS USING MATCHED AND MISMATCHED TASKS
 This repository provides official benchmark tables and evaluation metrics (mean F1 and accuracy $\pm$ SD) for **Amyotrophic Lateral Sclerosis (ALS)**, **Parkinson's Disease (PD)**, and **Healthy Controls (HC)** speech classification across 605 speakers. It evaluates cross-task (SPON, DIDK, IMG), cross-representation (Raw Wav, Source-Only, Filter-Only), and cross-disease model generalization.
 > **Note on Reported Metrics:** While figures in the manuscript highlight primary Accuracy trends, all tables and linked datasets in this repository report both **Mean F1 score (sd)** and **Mean Accuracy (sd)** across 5 folds to ensure full transparency.
 
